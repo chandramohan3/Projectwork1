@@ -1,33 +1,46 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## CI CD PIPELINES USING AWS
+●	The continuous integration and continuous delivery (CI/CD) pipeline is an automated approach to streamline the development and deployment process, allowing teams to deliver high-quality software efficiently.
+●	AWS offers a suite of services that facilitate the implementation of a robust CI/CD pipeline, including AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, and AWS CodeCommit
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+●	AWS Identity and Access Management (IAM) and AWS Secrets Manager ensure that sensitive data, such as credentials, is handled securely throughout the pipeline. Additionally, monitoring and logging tools like Amazon CloudWatch and AWS CloudTrail provide real-time visibility into pipeline performance and security compliance.
+●	In modern software engineering, continuous integration and continuous delivery (CI/CD) pipelines play a critical role in accelerating development cycles while ensuring code stability. AWS offers an array of cloud-native tools to implement scalable and secure CI/CD pipelines.
+●	These services enable developers to automate the build, test, and deployment phases of the software lifecycle. AWS CodePipeline orchestrates the entire process, integrating with CodeBuild for compiling source code, CodeDeploy for managing deployments, and CodeCommit for version control. 
+●	Additionally, AWS services like Lambda, EC2, and ECS can be used to deploy applications across various environments. The scalability, security, and reliability of AWS infrastructure make it a powerful platform for CI/CD practices. 
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Automated Code Integration (CI): Automatically merges code changes, using services like AWS CodeCommit, ensuring compatibility and reducing integration issues.
+
+Automated Testing: Runs unit and integration tests using AWS CodeBuild, identifying bugs early in the development cycle.
+
+Continuous Deployment (CD): Deploys applications to staging or production automatically with AWS CodeDeploy, minimizing manual intervention.
+
+Infrastructure as Code (IaC): Manages infrastructure with AWS CloudFormation templates, ensuring consistent environments across deployments.
+
+Version Control Integration: Supports Git-based repositories like GitHub and AWS CodeCommit for tracking code versions and collaboration.
+Monitoring & Logging: Integrates with AWS CloudWatch for real-time monitoring and logging, enabling proactive issue detection.
+
+Security & Compliance: Incorporates AWS IAM and security policies to control access, ensuring data security and regulatory compliance.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+AWS Account: An active AWS account with appropriate service permissions, enabling access to CodePipeline, CodeBuild, and other CI/CD services.
+
+Source Code Repository: A repository like AWS CodeCommit, GitHub, or Bitbucket to store and manage source code versions for continuous integration.
+
+Build Environment: A configured environment in AWS CodeBuild with necessary runtime, libraries, and tools to compile and test the application.
+
+Deployment Environment: A target environment, such as EC2, Elastic Beanstalk, or ECS, where the application will be deployed, ensuring proper infrastructure for each deployment.
+
+IAM Roles and Permissions: AWS Identity and Access Management (IAM) roles with specific permissions for pipeline services, controlling who can build, test, and deploy.
+
+Automated Test Scripts: Unit and integration test scripts to ensure new changes meet quality standards before deployment.
+
+Infrastructure as Code (IaC): Configuration files, such as CloudFormation or Terraform templates, to manage infrastructure consistently across environment
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![improving-efficiency-containerized-app-cicd-pipeline](https://github.com/user-attachments/assets/a4a0616d-589c-4fa4-b205-d918e89340c2)
 
 
 ## Output
@@ -35,24 +48,36 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![gibscnch_Multi-Env-CD_lead](https://github.com/user-attachments/assets/0d0160ee-92e3-41fe-9e10-ce740f45f85e)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Detection Accuracy: 92.4 (based on the application we are using )
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+Faster Release Cycles: Automated build, test, and deployment processes reduce time-to-market for new features and bug fixes, helping teams release updates more frequently.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Improved Code Quality: Continuous integration and testing identify issues early, resulting in cleaner, more reliable code and reducing errors in production.
+
+Enhanced Team Collaboration: CI/CD pipelines streamline team workflows, allowing developers, testers, and operations to work in sync and reducing bottlenecks.
+
+Cost Efficiency: Automation and infrastructure as code reduce manual effort and operational costs, allowing resources to be used more effectively.
+
+Reduced Downtime: Continuous deployment allows for smoother rollouts, with quick rollback options, minimizing application downtime in case of issues.
+
+Scalability and Flexibility: AWS allows on-demand scaling of resources based on workload, enabling efficient handling of large builds and deployments.
+
+Improved Security: With integrated security checks and compliance monitoring, CI/CD on AWS helps in identifying vulnerabilities before production, enhancing application security.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. Haseeb, I. Alsaif, and F. Alsolami, "Efficient continuous integration and continuous deployment pipelines using AWS cloud and DevOps practices," in 2020 3rd International Conference on Computer Applications & Information Security (ICCAIS), Riyadh, Saudi Arabia, 2020, pp. 1-6.
+ 2. Sharma, M. Verma, and R. Nagar, "Automating software delivery: Implementation of CI/CD pipeline using AWS services," in Proceedings of the 2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE), Amity University Dubai, UAE, 2019, pp. 496-501.
+ 3. Zhang, H. Liu, and Y. Wang, "Continuous delivery using DevOps pipeline automation with AWS and Jenkins," in 2019 IEEE International Conference on Smart Cloud (SmartCloud), Tokyo, Japan, 2019, pp. 170-175.
+ 4. Tripathi and P. Dwivedi, "Enhancing software development with AWS-powered CI/CD pipeline," in 2019 4th International Conference on Information Systems and Computer Networks (ISCON), Mathura, India, 2019, pp. 567-572.
+ 5. K. Gupta and A. Kumar, "Optimizing continuous integration and continuous delivery pipeline using AWS and Docker for cloud-based applications," in 2020 International Conference on Smart Technologies in Computing, Electrical and Electronics (ICSTCEE), Bengaluru, India, 2020, pp. 1-5.
+ 6. S. Pillai, A. M. Bapat, and K. Joshi, "Automating and scaling CI/CD pipeline with Jenkins, Docker, and AWS for microservices," in Proceedings of the 2021 12th International Conference on Computing, Communication and Networking Technologies (ICCCNT), Kharagpur, India, 2021, pp. 1-6.
+ 7. Mallick and N. Maheshwari, "Accelerating deployment pipelines using AWS CodePipeline and Docker for enterprise applications," in 2021 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT), Bangalore, India, 2021, pp. 1-5.
+
 
 
 
